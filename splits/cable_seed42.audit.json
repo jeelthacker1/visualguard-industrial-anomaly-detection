@@ -1,0 +1,24 @@
+{
+  "category": "cable",
+  "created_utc": "2026-11-05T04:19:44.534094+00:00",
+  "errors": [],
+  "exact_duplicate_groups": [],
+  "images": 374,
+  "near_duplicate_candidate_count": 2,
+  "near_duplicate_candidates_first_1000": [
+    {
+      "a": "cable/train/good/107.png",
+      "b": "cable/test/good/024.png",
+      "hamming": 2
+    },
+    {
+      "a": "cable/train/good/158.png",
+      "b": "cable/train/good/180.png",
+      "hamming": 2
+    }
+  ],
+  "near_duplicate_policy": "Review candidates; supply physical-item group IDs where known. dHash alone does not establish identity.",
+  "ok": true,
+  "test_images": 150,
+  "train_images": 224
+}

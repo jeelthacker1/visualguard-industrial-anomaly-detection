@@ -1,0 +1,133 @@
+{
+  "calibration": {
+    "decision_rule": "score > threshold",
+    "empirical_false_alarm_rate": 0.0,
+    "image_scores": [
+      2.47216796875,
+      2.284989833831787,
+      2.3567256927490234,
+      2.415836811065674,
+      2.2054781913757324,
+      2.277846574783325,
+      2.380925178527832,
+      2.5558533668518066,
+      2.402885913848877,
+      2.3043792247772217,
+      2.2905113697052,
+      2.449519634246826,
+      2.276991844177246,
+      2.313304901123047,
+      2.2060916423797607,
+      2.3812408447265625,
+      2.4136970043182373,
+      2.4098215103149414,
+      2.313873529434204,
+      2.2841057777404785,
+      2.283083438873291,
+      2.3372631072998047,
+      2.3192858695983887,
+      2.338283061981201,
+      2.3736226558685303,
+      2.3217930793762207,
+      2.4547119140625,
+      2.3134517669677734,
+      2.3365983963012695,
+      2.400672674179077,
+      2.522832155227661,
+      2.337331771850586,
+      2.4994544982910156,
+      2.4840760231018066,
+      2.432216167449951,
+      2.361464500427246,
+      2.3524746894836426,
+      2.4540863037109375,
+      2.2854785919189453,
+      2.4490180015563965,
+      2.3606929779052734,
+      2.2281365394592285,
+      2.3045878410339355,
+      2.5294735431671143,
+      2.3404006958007812
+    ],
+    "image_threshold": 2.5558533668518066,
+    "method": "normal-only-quantile-higher-v1",
+    "pixel_threshold": 2.304682493209839,
+    "quantile": 0.99,
+    "validation_count": 45,
+    "validation_fingerprint": "faae9fa33c741cc2607bff4549dbe0de9199de6e93861baa59976482853499fa"
+  },
+  "config": {
+    "backbone": "resnet18.tv_in1k",
+    "batch_size": 4,
+    "coreset_ratio": 0.05,
+    "input_size": 256,
+    "max_embedding_mb": 1024,
+    "max_train_patches": 20000,
+    "method": "patchcore",
+    "num_neighbors": 9,
+    "pretrained": true,
+    "quantile": 0.99,
+    "seed": 42,
+    "threads": 4
+  },
+  "created_utc": "2026-11-05T04:38:54.432908+00:00",
+  "fit": {
+    "bank_bytes": 1536000,
+    "bank_dimensions": 384,
+    "bank_rows": 1000,
+    "duplicate_train_images_removed": 0,
+    "raw_candidates": 183296,
+    "retained_candidates": 20000,
+    "unique_train_images": 179
+  },
+  "model_id": "fe94b80f58e2c4cf8b6a",
+  "preprocessing_version": "rgb-bilinear-imagenet-stretch-v1",
+  "provenance": {
+    "category": "cable",
+    "dataset": "MVTec AD",
+    "device": "cpu",
+    "fit_seconds": 29.67398849999995,
+    "hardware": {
+      "logical_cpus": 8,
+      "packages": {
+        "anomalib": "2.7.0",
+        "numpy": "2.5.4",
+        "pillow": "13.0.0",
+        "safetensors": "0.8.0",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "streamlit": "1.66.1",
+        "timm": "1.0.31",
+        "torch": "2.15.0",
+        "torchvision": "0.29.2",
+        "visualguard-ai": "0.1.0"
+      },
+      "platform": "Windows-11-10.0.26300-SP0",
+      "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+      "python": "3.13.3",
+      "ram_bytes": 8301043712
+    },
+    "manifest_sha256": "ce4f251a6d66434c9f58965863fc32fa1bbfe2d85a098a71f37e3fcaa41a7bd8",
+    "normal_validation_count": 45,
+    "quality_envelope": {
+      "brightness": [
+        0.3473639965057373,
+        0.44269044399261476
+      ],
+      "contrast": [
+        0.15391806662082672,
+        0.22858228385448456
+      ],
+      "laplacian_variance": [
+        0.008039670437574385,
+        0.0440285537391901
+      ]
+    },
+    "test_fingerprint": "1d0c4207469cd06a10d4f6cb27337fdaa0ed915e77b4b520f6351b372821eb22",
+    "threshold_frozen_utc": "2026-11-05T04:38:54.408640+00:00",
+    "train_count": 179,
+    "train_fingerprint": "04ca10cdf5fc9885016cde860b6a05e47d5eeebcad496a3f08321df8d3da914f"
+  },
+  "schema_version": 1,
+  "state_sha256": "07239ed432ab3e07dc6f8aa32202ae4c9b0d8f5e216ef17dc4454030730e4988"
+}

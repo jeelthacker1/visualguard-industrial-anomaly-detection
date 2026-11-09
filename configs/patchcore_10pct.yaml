@@ -1,0 +1,6 @@
+method: patchcore
+input_size: 256
+coreset_ratio: 0.10
+max_train_patches: 20000
+seed: 42
+threads: 4

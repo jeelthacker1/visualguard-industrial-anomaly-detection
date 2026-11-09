@@ -1,0 +1,9 @@
+method: patchcore
+input_size: 32
+coreset_ratio: 0.25
+max_train_patches: 1000
+num_neighbors: 3
+batch_size: 4
+seed: 42
+threads: 2
+pretrained: false

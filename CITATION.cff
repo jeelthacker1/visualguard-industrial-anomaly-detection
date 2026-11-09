@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If using this software, cite this repository and the original MVTec AD and PatchCore papers."
+title: "VisualGuard AI: Audited Industrial Anomaly Detection"
+type: software
+authors:
+  - family-names: Thacker
+    given-names: Jeel
+version: 0.1.0
+date-released: 2026-11-05
+url: "https://github.com/jeelthacker1/visualguard-industrial-anomaly-detection"
+license: MIT

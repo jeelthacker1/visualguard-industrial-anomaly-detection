@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visualguard-ai"
+version = "0.1.0"
+description = "Leakage-audited industrial anomaly detection with measured evidence"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+license = "MIT"
+authors = [{name = "Jeel Thacker"}]
+dependencies = [
+  "numpy>=2.2,<3", "pillow>=13,<14", "scipy>=1.15,<2",
+  "scikit-learn>=1.7,<2", "PyYAML>=6.0.2,<7", "safetensors>=0.7,<1",
+  "psutil>=7,<8",
+]
+
+[project.optional-dependencies]
+models = ["torch==2.15.0", "torchvision==0.29.2", "anomalib==2.7.0"]
+app = ["streamlit>=1.55,<2", "matplotlib>=3.10,<4"]
+api = ["fastapi>=0.120,<1", "uvicorn>=0.40,<1"]
+dev = ["pytest>=9,<10", "pytest-cov>=7,<8", "ruff>=0.15,<1", "httpx>=0.28,<1", "pip-audit>=2.10,<3", "build>=1.4,<2"]
+
+[project.scripts]
+visualguard = "visualguard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["models: real PyTorch and Anomalib integration without pretrained downloads"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S"]
+ignore = ["E501", "S101"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S105", "S106"]

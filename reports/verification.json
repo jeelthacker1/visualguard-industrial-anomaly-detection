@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-11-09T14:03:20.361392+00:00",
+  "tests": {
+    "tests": "51",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "75.709"
+  },
+  "coverage_percent": 71.55963302752293,
+  "dependency_audit": {
+    "date": "2026-11-05",
+    "checked_packages": 129,
+    "known_vulnerabilities": 0,
+    "skipped": [
+      "visualguard-ai local project unavailable on PyPI"
+    ]
+  },
+  "installed_wheel_smoke": "passed on 10 synthetic test images",
+  "reference_aupro": {
+    "reference": "anomalib.metrics.aupro._AUPRO",
+    "cases": [
+      {
+        "case": "perfect",
+        "reference_value": 1.0,
+        "visualguard_value": 0.9999999999999998,
+        "absolute_difference": 2.220446049250313e-16
+      },
+      {
+        "case": "overlapping",
+        "reference_value": 0.5628249049186707,
+        "visualguard_value": 0.5628248207885305,
+        "absolute_difference": 8.413014018771037e-08
+      },
+      {
+        "case": "tied",
+        "reference_value": 0.18269306421279907,
+        "visualguard_value": 0.18269304728615582,
+        "absolute_difference": 1.6926643253700746e-08
+      },
+      {
+        "case": "all_tied",
+        "reference_value": 0.15000000596046448,
+        "visualguard_value": 0.14999999999999997,
+        "absolute_difference": 5.960464510845753e-09
+      }
+    ]
+  },
+  "real_benchmark_runs": 10,
+  "http_probe": "service_probe.json",
+  "unverified": [
+    "physical camera and factory validation",
+    "Docker runtime",
+    "multi-seed study",
+    "narrated demo video"
+  ]
+}

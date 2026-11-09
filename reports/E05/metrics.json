@@ -1,0 +1,97 @@
+{
+  "bank_bytes": 1536000,
+  "category": "metal_nut",
+  "config": {
+    "backbone": "resnet18.tv_in1k",
+    "batch_size": 4,
+    "coreset_ratio": 0.05,
+    "input_size": 256,
+    "max_embedding_mb": 1024,
+    "max_train_patches": 20000,
+    "method": "patchcore",
+    "num_neighbors": 9,
+    "pretrained": true,
+    "quantile": 0.99,
+    "seed": 42,
+    "threads": 4
+  },
+  "corruption": "none",
+  "created_utc": "2026-11-05T04:35:56.163981+00:00",
+  "dataset": "MVTec AD",
+  "exploratory_repeat": false,
+  "fit_seconds": 27.126579499999934,
+  "hardware": {
+    "logical_cpus": 8,
+    "packages": {
+      "anomalib": "2.7.0",
+      "numpy": "2.5.4",
+      "pillow": "13.0.0",
+      "safetensors": "0.8.0",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "streamlit": "1.66.1",
+      "timm": "1.0.31",
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "visualguard-ai": "0.1.0"
+    },
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "python": "3.13.3",
+    "ram_bytes": 8301043712
+  },
+  "image": {
+    "accuracy": 0.9391304347826087,
+    "anomaly_prevalence": 0.808695652173913,
+    "auroc_ci95": [
+      0.9753054740957966,
+      1.0
+    ],
+    "average_precision": 0.9978353421080648,
+    "ci_method": "stratified image bootstrap; correlated physical items may invalidate independence",
+    "count": 115,
+    "f1": 0.9608938547486033,
+    "false_positive_rate": 0.0,
+    "fn": 7,
+    "fp": 0,
+    "image_auroc": 0.9902248289345064,
+    "precision": 1.0,
+    "recall": 0.9247311827956989,
+    "threshold": 2.3030290603637695,
+    "tn": 22,
+    "tp": 86,
+    "undefined_reason": null
+  },
+  "manifest_sha256": "3c27d139cdd981a9ab62e3ae177765ef397b1d300d7e9defadd8716863a7bca6",
+  "method": "patchcore",
+  "model_id": "1361c405c79d176510a5",
+  "notes": [
+    "Normal-only threshold does not guarantee a future false-alarm rate.",
+    "Published benchmark accuracy does not establish factory or camera reliability."
+  ],
+  "pixel": {
+    "aggregation": "all pixels pooled at model resolution; ground truth nearest-neighbor resize; no subsampling",
+    "aupro": 0.935254741972069,
+    "aupro_connectivity": 8,
+    "aupro_max_fpr": 0.3,
+    "dice": 0.8107840188347591,
+    "iou": 0.6817802919536289,
+    "pixel_auroc": 0.9814583743521771,
+    "pixel_count": 7536640,
+    "pixel_threshold": 2.002544403076172
+  },
+  "schema_version": 1,
+  "threshold_fixed_before_test": true,
+  "timing": {
+    "mean_ms": 93.41766399999187,
+    "median_ms": 88.98729999998523,
+    "p95_ms": 114.59012499994968,
+    "p99_ms": 138.85362500004535,
+    "peak_memory_measured": false,
+    "repetitions": 100,
+    "sampled_process_rss_max_bytes": 658919424,
+    "scope": "batch=1 CPU preprocessing + feature extraction + scoring; preloaded image; excludes decode, network and UI",
+    "sequential_throughput_fps": 10.704613637096374,
+    "warmup": 10
+  }
+}

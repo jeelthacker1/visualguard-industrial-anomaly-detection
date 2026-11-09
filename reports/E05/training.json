@@ -1,0 +1,132 @@
+{
+  "calibration": {
+    "decision_rule": "score > threshold",
+    "empirical_false_alarm_rate": 0.0,
+    "image_scores": [
+      1.9150426387786865,
+      2.052471399307251,
+      1.9212017059326172,
+      2.1865363121032715,
+      2.026085376739502,
+      2.0058045387268066,
+      2.000910997390747,
+      1.9083529710769653,
+      2.035919666290283,
+      2.2998130321502686,
+      2.1031672954559326,
+      1.9756076335906982,
+      2.144853353500366,
+      2.0619254112243652,
+      2.18804931640625,
+      2.1184487342834473,
+      1.8907065391540527,
+      1.9907509088516235,
+      2.001497983932495,
+      2.0496554374694824,
+      1.999137282371521,
+      2.007765054702759,
+      2.1283669471740723,
+      2.035172939300537,
+      2.08150053024292,
+      1.9837690591812134,
+      2.009310722351074,
+      1.993259310722351,
+      1.9731550216674805,
+      1.9562309980392456,
+      2.070956230163574,
+      2.0038161277770996,
+      2.077437400817871,
+      2.1319940090179443,
+      2.0554065704345703,
+      2.1288681030273438,
+      2.0160677433013916,
+      2.3030290603637695,
+      2.0054235458374023,
+      2.0485355854034424,
+      2.0162746906280518,
+      1.962074875831604,
+      2.0084762573242188,
+      1.9505424499511719
+    ],
+    "image_threshold": 2.3030290603637695,
+    "method": "normal-only-quantile-higher-v1",
+    "pixel_threshold": 2.002544403076172,
+    "quantile": 0.99,
+    "validation_count": 44,
+    "validation_fingerprint": "08fbd847b2d9c3d50b01404d77dac2da155348d4ec8c2ae446c58234ff273262"
+  },
+  "config": {
+    "backbone": "resnet18.tv_in1k",
+    "batch_size": 4,
+    "coreset_ratio": 0.05,
+    "input_size": 256,
+    "max_embedding_mb": 1024,
+    "max_train_patches": 20000,
+    "method": "patchcore",
+    "num_neighbors": 9,
+    "pretrained": true,
+    "quantile": 0.99,
+    "seed": 42,
+    "threads": 4
+  },
+  "created_utc": "2026-11-05T04:34:46.081454+00:00",
+  "fit": {
+    "bank_bytes": 1536000,
+    "bank_dimensions": 384,
+    "bank_rows": 1000,
+    "duplicate_train_images_removed": 0,
+    "raw_candidates": 180224,
+    "retained_candidates": 20000,
+    "unique_train_images": 176
+  },
+  "model_id": "1361c405c79d176510a5",
+  "preprocessing_version": "rgb-bilinear-imagenet-stretch-v1",
+  "provenance": {
+    "category": "metal_nut",
+    "dataset": "MVTec AD",
+    "device": "cpu",
+    "fit_seconds": 27.126579499999934,
+    "hardware": {
+      "logical_cpus": 8,
+      "packages": {
+        "anomalib": "2.7.0",
+        "numpy": "2.5.4",
+        "pillow": "13.0.0",
+        "safetensors": "0.8.0",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "streamlit": "1.66.1",
+        "timm": "1.0.31",
+        "torch": "2.15.0",
+        "torchvision": "0.29.2",
+        "visualguard-ai": "0.1.0"
+      },
+      "platform": "Windows-11-10.0.26300-SP0",
+      "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+      "python": "3.13.3",
+      "ram_bytes": 8301043712
+    },
+    "manifest_sha256": "3c27d139cdd981a9ab62e3ae177765ef397b1d300d7e9defadd8716863a7bca6",
+    "normal_validation_count": 44,
+    "quality_envelope": {
+      "brightness": [
+        0.18457784056663512,
+        0.2900550335645676
+      ],
+      "contrast": [
+        0.12701082825660706,
+        0.23075836300849914
+      ],
+      "laplacian_variance": [
+        0.0036424040794372555,
+        0.022856628894805907
+      ]
+    },
+    "test_fingerprint": "9c86edfe8cb23cfa8c14bf214314770da09822a72d988c82d567ed8b5df89ec9",
+    "threshold_frozen_utc": "2026-11-05T04:34:46.055218+00:00",
+    "train_count": 176,
+    "train_fingerprint": "85183a65f4befa343ec85607346f446d57369a4b308c62fd7fc8b7ab981488e0"
+  },
+  "schema_version": 1,
+  "state_sha256": "08ae9ca132a78bf12a72e3d08f6a4f5407eba380114594775edeaa10260fa838"
+}

@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-11-05T04:27:13.352448+00:00",
+  "plan": {
+    "candidate_cap": 20000,
+    "config_sha256": {
+      "baseline": "527ca6718787b3e3d599fc43d71634c3b6c78824c47e70a8f2be0ed273165dee",
+      "patchcore_10pct": "5378a8ee19b8538f481e9ad2c24048af9ff888c3b64e38a78536e5c80380336c",
+      "patchcore_224": "1238aa0720e33dce67dbddec487616f10a915ae264e9a6603fdfab0c239d60d4",
+      "patchcore_resnet18": "b00f752ca1dd6633604e8cd1d04feaa81282f5fe37b4ed650fa136bb9ab30c75"
+    },
+    "corruptions": {
+      "E08": "bottle E01, Gaussian blur radius 2",
+      "E09": "bottle E01, additive noise std 10/255 seed 42"
+    },
+    "model_selection": "All fixed configurations reported; no test-driven selection.",
+    "normal_validation_fraction": 0.2,
+    "runs": [
+      [
+        "E00",
+        "bottle",
+        "baseline"
+      ],
+      [
+        "E01",
+        "bottle",
+        "patchcore_resnet18"
+      ],
+      [
+        "E02",
+        "bottle",
+        "patchcore_10pct"
+      ],
+      [
+        "E03",
+        "bottle",
+        "patchcore_224"
+      ],
+      [
+        "E04",
+        "metal_nut",
+        "baseline"
+      ],
+      [
+        "E05",
+        "metal_nut",
+        "patchcore_resnet18"
+      ],
+      [
+        "E06",
+        "cable",
+        "baseline"
+      ],
+      [
+        "E07",
+        "cable",
+        "patchcore_resnet18"
+      ]
+    ],
+    "seed": 42,
+    "timing_repetitions": 100
+  },
+  "plan_sha256": "653d090535ea89b36baebab356d49799bccd82f7bbf5339a862667a088fbb18c"
+}

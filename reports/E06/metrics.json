@@ -1,0 +1,87 @@
+{
+  "bank_bytes": 366592,
+  "category": "cable",
+  "config": {
+    "backbone": "resnet18.tv_in1k",
+    "batch_size": 4,
+    "coreset_ratio": 0.05,
+    "input_size": 256,
+    "max_embedding_mb": 1024,
+    "max_train_patches": 20000,
+    "method": "global_knn",
+    "num_neighbors": 9,
+    "pretrained": true,
+    "quantile": 0.99,
+    "seed": 42,
+    "threads": 4
+  },
+  "corruption": "none",
+  "created_utc": "2026-11-05T04:37:49.979432+00:00",
+  "dataset": "MVTec AD",
+  "exploratory_repeat": false,
+  "fit_seconds": 26.313680000000204,
+  "hardware": {
+    "logical_cpus": 8,
+    "packages": {
+      "anomalib": "2.7.0",
+      "numpy": "2.5.4",
+      "pillow": "13.0.0",
+      "safetensors": "0.8.0",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "streamlit": "1.66.1",
+      "timm": "1.0.31",
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "visualguard-ai": "0.1.0"
+    },
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "python": "3.13.3",
+    "ram_bytes": 8301043712
+  },
+  "image": {
+    "accuracy": 0.68,
+    "anomaly_prevalence": 0.6133333333333333,
+    "auroc_ci95": [
+      0.8110569715142428,
+      0.9250374812593704
+    ],
+    "average_precision": 0.9204449713534532,
+    "ci_method": "stratified image bootstrap; correlated physical items may invalidate independence",
+    "count": 150,
+    "f1": 0.6666666666666666,
+    "false_positive_rate": 0.06896551724137931,
+    "fn": 44,
+    "fp": 4,
+    "image_auroc": 0.8738755622188905,
+    "precision": 0.9230769230769231,
+    "recall": 0.5217391304347826,
+    "threshold": 7.98167610168457,
+    "tn": 54,
+    "tp": 48,
+    "undefined_reason": null
+  },
+  "manifest_sha256": "ce4f251a6d66434c9f58965863fc32fa1bbfe2d85a098a71f37e3fcaa41a7bd8",
+  "method": "global_knn",
+  "model_id": "37f6e45737047daba34d",
+  "notes": [
+    "Normal-only threshold does not guarantee a future false-alarm rate.",
+    "Published benchmark accuracy does not establish factory or camera reliability."
+  ],
+  "pixel": null,
+  "schema_version": 1,
+  "threshold_fixed_before_test": true,
+  "timing": {
+    "mean_ms": 75.48286200000803,
+    "median_ms": 73.69214999994256,
+    "p95_ms": 81.93513499992376,
+    "p99_ms": 88.35354899993334,
+    "peak_memory_measured": false,
+    "repetitions": 100,
+    "sampled_process_rss_max_bytes": 602734592,
+    "scope": "batch=1 CPU preprocessing + feature extraction + scoring; preloaded image; excludes decode, network and UI",
+    "sequential_throughput_fps": 13.248040330000917,
+    "warmup": 10
+  }
+}

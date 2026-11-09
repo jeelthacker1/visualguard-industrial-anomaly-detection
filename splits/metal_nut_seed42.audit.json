@@ -1,0 +1,1959 @@
+{
+  "category": "metal_nut",
+  "created_utc": "2026-11-05T04:19:09.022581+00:00",
+  "errors": [],
+  "exact_duplicate_groups": [],
+  "images": 335,
+  "near_duplicate_candidate_count": 389,
+  "near_duplicate_candidates_first_1000": [
+    {
+      "a": "metal_nut/train/good/000.png",
+      "b": "metal_nut/train/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/000.png",
+      "b": "metal_nut/train/good/131.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/001.png",
+      "b": "metal_nut/train/good/165.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/001.png",
+      "b": "metal_nut/train/good/188.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/001.png",
+      "b": "metal_nut/test/bent/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/003.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/003.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/006.png",
+      "b": "metal_nut/test/good/007.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/007.png",
+      "b": "metal_nut/train/good/044.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/009.png",
+      "b": "metal_nut/train/good/113.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/009.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/011.png",
+      "b": "metal_nut/train/good/038.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/011.png",
+      "b": "metal_nut/train/good/124.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/011.png",
+      "b": "metal_nut/train/good/194.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/011.png",
+      "b": "metal_nut/train/good/218.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/011.png",
+      "b": "metal_nut/test/scratch/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/012.png",
+      "b": "metal_nut/train/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/012.png",
+      "b": "metal_nut/train/good/036.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/012.png",
+      "b": "metal_nut/train/good/164.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/012.png",
+      "b": "metal_nut/train/good/165.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/train/good/057.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/train/good/108.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/train/good/143.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/train/good/153.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/test/color/011.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/013.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/014.png",
+      "b": "metal_nut/train/good/016.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/016.png",
+      "b": "metal_nut/train/good/127.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/016.png",
+      "b": "metal_nut/train/good/180.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/017.png",
+      "b": "metal_nut/train/good/148.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/019.png",
+      "b": "metal_nut/train/good/088.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/019.png",
+      "b": "metal_nut/train/good/131.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/019.png",
+      "b": "metal_nut/train/good/164.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/019.png",
+      "b": "metal_nut/train/good/165.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/025.png",
+      "b": "metal_nut/train/good/128.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/025.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/026.png",
+      "b": "metal_nut/test/bent/013.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/027.png",
+      "b": "metal_nut/test/good/011.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/031.png",
+      "b": "metal_nut/train/good/068.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/032.png",
+      "b": "metal_nut/train/good/098.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/032.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/033.png",
+      "b": "metal_nut/train/good/187.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/035.png",
+      "b": "metal_nut/train/good/037.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/035.png",
+      "b": "metal_nut/train/good/162.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/036.png",
+      "b": "metal_nut/train/good/076.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/036.png",
+      "b": "metal_nut/train/good/139.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/036.png",
+      "b": "metal_nut/test/color/003.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/038.png",
+      "b": "metal_nut/train/good/044.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/038.png",
+      "b": "metal_nut/train/good/077.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/038.png",
+      "b": "metal_nut/train/good/124.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/038.png",
+      "b": "metal_nut/train/good/194.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/040.png",
+      "b": "metal_nut/train/good/073.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/040.png",
+      "b": "metal_nut/train/good/195.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/044.png",
+      "b": "metal_nut/train/good/187.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/044.png",
+      "b": "metal_nut/test/bent/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/045.png",
+      "b": "metal_nut/train/good/054.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/046.png",
+      "b": "metal_nut/train/good/218.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/048.png",
+      "b": "metal_nut/test/scratch/012.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/049.png",
+      "b": "metal_nut/test/bent/016.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/049.png",
+      "b": "metal_nut/test/good/001.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/train/good/108.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/train/good/143.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/train/good/175.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/train/good/207.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/057.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/058.png",
+      "b": "metal_nut/train/good/079.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/058.png",
+      "b": "metal_nut/train/good/083.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/058.png",
+      "b": "metal_nut/test/color/000.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/060.png",
+      "b": "metal_nut/train/good/144.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/060.png",
+      "b": "metal_nut/train/good/163.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/061.png",
+      "b": "metal_nut/train/good/121.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/062.png",
+      "b": "metal_nut/train/good/113.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/062.png",
+      "b": "metal_nut/train/good/157.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/062.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/070.png",
+      "b": "metal_nut/train/good/104.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/070.png",
+      "b": "metal_nut/train/good/213.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/071.png",
+      "b": "metal_nut/train/good/206.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/072.png",
+      "b": "metal_nut/train/good/125.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/072.png",
+      "b": "metal_nut/train/good/130.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/072.png",
+      "b": "metal_nut/train/good/154.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/072.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/072.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/074.png",
+      "b": "metal_nut/train/good/083.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/074.png",
+      "b": "metal_nut/train/good/153.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/074.png",
+      "b": "metal_nut/test/color/000.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/075.png",
+      "b": "metal_nut/test/color/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/076.png",
+      "b": "metal_nut/test/color/003.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/077.png",
+      "b": "metal_nut/train/good/179.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/078.png",
+      "b": "metal_nut/train/good/129.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/078.png",
+      "b": "metal_nut/train/good/164.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/079.png",
+      "b": "metal_nut/train/good/083.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/080.png",
+      "b": "metal_nut/train/good/089.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/081.png",
+      "b": "metal_nut/train/good/116.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/081.png",
+      "b": "metal_nut/test/bent/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/102.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/113.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/175.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/199.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/207.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/test/bent/010.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/test/bent/023.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/082.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/088.png",
+      "b": "metal_nut/train/good/131.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/088.png",
+      "b": "metal_nut/train/good/164.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/089.png",
+      "b": "metal_nut/train/good/137.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/091.png",
+      "b": "metal_nut/test/good/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/099.png",
+      "b": "metal_nut/train/good/210.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/099.png",
+      "b": "metal_nut/train/good/213.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/101.png",
+      "b": "metal_nut/test/color/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/102.png",
+      "b": "metal_nut/train/good/207.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/102.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/103.png",
+      "b": "metal_nut/test/scratch/005.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/104.png",
+      "b": "metal_nut/train/good/107.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/104.png",
+      "b": "metal_nut/train/good/213.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/106.png",
+      "b": "metal_nut/train/good/172.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/107.png",
+      "b": "metal_nut/train/good/204.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/107.png",
+      "b": "metal_nut/test/scratch/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/113.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/143.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/175.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/108.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/109.png",
+      "b": "metal_nut/train/good/172.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/110.png",
+      "b": "metal_nut/train/good/115.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/112.png",
+      "b": "metal_nut/train/good/138.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/128.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/143.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/157.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/175.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/185.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/test/bent/001.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/113.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/116.png",
+      "b": "metal_nut/train/good/125.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/116.png",
+      "b": "metal_nut/train/good/130.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/116.png",
+      "b": "metal_nut/train/good/154.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/116.png",
+      "b": "metal_nut/test/bent/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/116.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/116.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/119.png",
+      "b": "metal_nut/test/color/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/119.png",
+      "b": "metal_nut/test/scratch/002.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/120.png",
+      "b": "metal_nut/train/good/138.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/124.png",
+      "b": "metal_nut/test/scratch/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/130.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/140.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/153.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/154.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/166.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/bent/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/color/000.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/good/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/125.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/train/good/157.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/train/good/185.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/test/bent/001.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/128.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/129.png",
+      "b": "metal_nut/train/good/164.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/140.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/153.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/154.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/166.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/bent/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/color/000.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/good/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/130.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/131.png",
+      "b": "metal_nut/train/good/155.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/131.png",
+      "b": "metal_nut/train/good/161.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/131.png",
+      "b": "metal_nut/test/bent/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/132.png",
+      "b": "metal_nut/train/good/135.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/132.png",
+      "b": "metal_nut/test/bent/018.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/135.png",
+      "b": "metal_nut/train/good/179.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/139.png",
+      "b": "metal_nut/train/good/164.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/139.png",
+      "b": "metal_nut/test/color/003.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/139.png",
+      "b": "metal_nut/test/scratch/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/train/good/154.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/train/good/166.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/140.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/train/good/175.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/143.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/144.png",
+      "b": "metal_nut/train/good/163.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/147.png",
+      "b": "metal_nut/train/good/205.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/148.png",
+      "b": "metal_nut/test/good/012.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/train/good/154.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/test/color/000.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/test/color/011.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/153.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/train/good/166.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/bent/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/color/000.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/good/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/154.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/155.png",
+      "b": "metal_nut/train/good/161.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/155.png",
+      "b": "metal_nut/test/bent/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/156.png",
+      "b": "metal_nut/train/good/212.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/train/good/159.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/train/good/185.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/test/bent/001.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/157.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/train/good/175.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/train/good/185.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/test/bent/001.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/159.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/161.png",
+      "b": "metal_nut/test/bent/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/164.png",
+      "b": "metal_nut/train/good/165.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/164.png",
+      "b": "metal_nut/test/scratch/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/165.png",
+      "b": "metal_nut/test/bent/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/166.png",
+      "b": "metal_nut/train/good/177.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/166.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/166.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/166.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/166.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/166.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/168.png",
+      "b": "metal_nut/test/color/003.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/168.png",
+      "b": "metal_nut/test/scratch/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/169.png",
+      "b": "metal_nut/test/bent/016.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/171.png",
+      "b": "metal_nut/train/good/183.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/173.png",
+      "b": "metal_nut/test/scratch/017.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/175.png",
+      "b": "metal_nut/train/good/207.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/175.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/175.png",
+      "b": "metal_nut/test/bent/010.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/175.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/175.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/176.png",
+      "b": "metal_nut/train/good/187.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/176.png",
+      "b": "metal_nut/train/good/201.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/train/good/209.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/177.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/178.png",
+      "b": "metal_nut/train/good/185.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/178.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/178.png",
+      "b": "metal_nut/test/scratch/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/185.png",
+      "b": "metal_nut/test/bent/001.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/185.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/185.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/185.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/185.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/187.png",
+      "b": "metal_nut/train/good/197.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/187.png",
+      "b": "metal_nut/train/good/201.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/187.png",
+      "b": "metal_nut/test/bent/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/192.png",
+      "b": "metal_nut/test/good/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/194.png",
+      "b": "metal_nut/test/color/009.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/194.png",
+      "b": "metal_nut/test/scratch/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/197.png",
+      "b": "metal_nut/train/good/201.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/197.png",
+      "b": "metal_nut/test/bent/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/199.png",
+      "b": "metal_nut/test/bent/023.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/201.png",
+      "b": "metal_nut/test/bent/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/202.png",
+      "b": "metal_nut/test/good/017.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/204.png",
+      "b": "metal_nut/test/scratch/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/207.png",
+      "b": "metal_nut/test/bent/010.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/207.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/207.png",
+      "b": "metal_nut/test/color/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/train/good/214.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/209.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/214.png",
+      "b": "metal_nut/train/good/219.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/214.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/214.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/214.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/214.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/214.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/217.png",
+      "b": "metal_nut/test/good/018.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/218.png",
+      "b": "metal_nut/test/scratch/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/219.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/219.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/train/good/219.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/train/good/219.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/test/bent/001.png",
+      "b": "metal_nut/test/color/005.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/001.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/001.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/001.png",
+      "b": "metal_nut/test/good/013.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/001.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/006.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/006.png",
+      "b": "metal_nut/test/good/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/006.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/bent/010.png",
+      "b": "metal_nut/test/bent/023.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/000.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/000.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/000.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/003.png",
+      "b": "metal_nut/test/scratch/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/test/color/005.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/005.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/005.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/011.png",
+      "b": "metal_nut/test/color/015.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/011.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/015.png",
+      "b": "metal_nut/test/color/021.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/015.png",
+      "b": "metal_nut/test/good/004.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/015.png",
+      "b": "metal_nut/test/good/008.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/test/color/015.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/test/color/015.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/021.png",
+      "b": "metal_nut/test/good/006.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/021.png",
+      "b": "metal_nut/test/good/014.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/021.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/color/021.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/test/flip/005.png",
+      "b": "metal_nut/test/flip/011.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/flip/005.png",
+      "b": "metal_nut/test/flip/014.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/test/flip/005.png",
+      "b": "metal_nut/test/flip/017.png",
+      "hamming": 0
+    },
+    {
+      "a": "metal_nut/test/flip/011.png",
+      "b": "metal_nut/test/flip/017.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/flip/014.png",
+      "b": "metal_nut/test/flip/017.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/test/flip/016.png",
+      "b": "metal_nut/test/flip/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/good/004.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/good/006.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/good/008.png",
+      "b": "metal_nut/test/good/019.png",
+      "hamming": 1
+    },
+    {
+      "a": "metal_nut/test/good/014.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/good/019.png",
+      "b": "metal_nut/test/good/020.png",
+      "hamming": 2
+    },
+    {
+      "a": "metal_nut/test/scratch/020.png",
+      "b": "metal_nut/test/scratch/021.png",
+      "hamming": 2
+    }
+  ],
+  "near_duplicate_policy": "Review candidates; supply physical-item group IDs where known. dHash alone does not establish identity.",
+  "ok": true,
+  "test_images": 115,
+  "train_images": 220
+}

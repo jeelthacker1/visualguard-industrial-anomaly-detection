@@ -1,0 +1,67 @@
+name: CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    env:
+      MPLCONFIGDIR: ${{ github.workspace }}/.cache/matplotlib
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - run: python -m pip install --upgrade pip==26.3
+      - run: python -m pip install -r requirements-ci.txt
+      - run: python -m pip install -e . --no-deps
+      - run: python -m ruff check .
+      - run: python -m ruff format --check .
+      - run: python -m pytest -q -m "not models" --cov=visualguard --cov-report=term-missing
+      - run: python -m pip check
+  model-integration:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      MPLCONFIGDIR: ${{ github.workspace }}/.cache/matplotlib
+      HF_HUB_OFFLINE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: python -m pip install --upgrade pip==26.3
+      - run: python -m pip install -r requirements-lock.txt
+      - run: python -m pip install -e . --no-deps
+      - run: python -m pytest -q -m models
+  dependency-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+      - run: python -m pip install --upgrade pip==26.3 pip-audit==2.10.1
+      - run: python -m pip_audit -r requirements-ci.txt

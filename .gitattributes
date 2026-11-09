@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+# These files are byte-fingerprinted; preserve their exact bytes on every platform.
+configs/*.yaml -text
+splits/*.csv -text
+splits/*.meta.json -text
+experiments/preregistered_plan.json -text
+*.png binary
